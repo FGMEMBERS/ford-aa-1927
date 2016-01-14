@@ -1,0 +1,275 @@
+<PropertyList>
+ 
+<path>ford-aa-1927.ac</path>
+  <nasal>
+    <load>
+      var livery_update = aircraft.livery_update.new("Aircraft/ford-aa-1927/Models/Liveries", 10);
+    </load>
+
+    <unload>
+      livery_update.stop();
+    </unload>
+  </nasal>
+
+<animation>
+    <type>material</type>
+    <object-name>Body</object-name>
+    <property-base>sim/model/livery</property-base>
+    <texture-prop>texture</texture-prop>
+    <texture>Kerdi Byzantium.png</texture>
+  </animation>
+<animation>
+   <type>light</type>
+   <light-type>spot</light-type>
+   <name>LightSrcRight</name>
+   <object-name>LandingLight</object-name>
+   <nopreview/>
+   <position>
+     <x>-2.4809</x>
+     <y>-0.0004</y>
+     <z>1.20086</z>
+   </position>
+   <direction>
+     <x>-3.59529</x>
+     <y>-0.0004</y>
+     <z>-0.1</z>
+   </direction>
+     <diffuse>
+            <r>3</r>
+            <g>3</g>
+            <b>4</b>
+            <a>1.0</a>
+        </diffuse>
+        <specular>
+            <r>3</r>
+            <g>3</g>
+            <b>4</b>
+            <a>1.0</a>
+        </specular>
+    <attenuation>
+     <c>1.0</c>
+     <l>0.002</l>
+     <q>0.00005</q>
+   </attenuation>
+   <exponent>25</exponent>
+   <cutoff>39</cutoff>
+    <near-m>2</near-m>
+   <far-m>250</far-m>
+ </animation>
+
+<!-- ========== Effects ========= -->
+
+	<effect>
+		<inherits-from>Aircraft/ford-aa-1927/Models/Effects/ford-aa-1927</inherits-from>
+		<object-name>Body</object-name>
+		<object-name>Black</object-name>
+		<object-name>steps</object-name>
+		<object-name>Logo</object-name>
+		<object-name>Wood</object-name>
+		<object-name>metal</object-name>
+	</effect>
+	<effect>
+		<inherits-from>Aircraft/ford-aa-1927/Models/Effects/ford-aa-19272</inherits-from>
+		<object-name>Chrome</object-name>
+	</effect>
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <object-name>Windows</object-name>
+</effect>
+
+<!-- FRONT WHEEL LEFT -->
+
+<animation>
+ <type>rotate</type>
+ <object-name>Tyre1</object-name>
+ <property>gear/gear[0]/steering-norm</property>
+ <factor>-45</factor>
+ <center>
+  <x-m> -2.48481</x-m>
+  <y-m>-0.94019</y-m>
+  <z-m>0.4907</z-m>
+ </center>
+ <axis>
+  <x>0.0</x>
+  <y>0.0</y>
+  <z>1.0</z>
+ </axis>
+</animation>
+
+<animation>
+ <type>translate</type>
+ <object-name>Tyre1</object-name>
+ <property>gear/gear[0]/compression-norm</property>
+ <interpolation>
+  <entry>
+   <ind>0.0</ind>	
+   <dep>0</dep>
+  </entry>
+  <entry>	
+	<ind>1.00</ind>
+	<dep>0.2</dep>
+  </entry>  
+ </interpolation>
+ <axis>
+  <x>0</x>	
+  <y>0</y>
+  <z>1</z>	
+ </axis>
+</animation>
+ 
+<animation>
+ <type>spin</type>
+ <object-name>Tyre1</object-name>
+ <property>gear/gear[2]/rollspeed-ms</property>
+ <factor>-15</factor>
+ <center>
+  <x-m>-2.48481</x-m>
+  <y-m>-0.94019</y-m>
+  <z-m>0.4907</z-m>
+ </center>
+ <axis>
+  <x>0.0</x>
+  <y>1.0</y>
+  <z>0.0</z>
+ </axis>
+</animation>
+
+<!-- FRONT WHEEL RIGHT -->
+
+<animation>
+ <type>rotate</type>
+ <object-name>Tyre2</object-name>
+ <property>gear/gear[1]/steering-norm</property>
+ <factor>-45</factor>
+ <center>
+  <x-m>-2.48481</x-m>
+  <y-m>0.94019</y-m>
+  <z-m>0.4907</z-m>
+ </center>
+ <axis>
+  <x>0.0</x>
+  <y>0.0</y>
+  <z>1.0</z>
+ </axis>
+</animation>
+
+<animation>
+ <type>translate</type>
+ <object-name>Tyre2</object-name>
+ <property>gear/gear[1]/compression-norm</property>
+ <interpolation>
+  <entry>
+   <ind>0.0</ind>
+   <dep>0</dep>
+  </entry>
+  <entry>
+   <ind>1.00</ind>
+   <dep>0.2</dep>
+  </entry>
+ </interpolation>
+ <axis>
+  <x>0</x>
+  <y>0</y>
+  <z>1</z>
+ </axis>
+</animation>
+ 
+<animation>
+ <type>spin</type>
+ <object-name>Tyre2</object-name> 
+ <property>gear/gear[1]/rollspeed-ms</property>
+ <factor>-15</factor>
+ <center>
+  <x-m>-2.48481</x-m>
+  <y-m>0.94019</y-m>
+  <z-m>0.4907</z-m>
+ </center>
+ <axis>
+  <x>0.0</x>
+  <y>1.0</y>
+  <z>0.0</z>
+ </axis>
+</animation>
+ 
+<!-- REAR WHEEL LEFT -->
+
+<animation>
+ <type>translate</type>
+ <object-name>Tyre3</object-name>
+ <property>gear/gear[2]/compression-norm</property>
+ <interpolation>
+  <entry>
+   <ind>0.0</ind>
+   <dep>0</dep>
+  </entry>
+  <entry>
+   <ind>1.00</ind>
+   <dep>0.2</dep>
+  </entry>
+ </interpolation>
+ <axis>
+  <x>0</x>
+  <y>0</y>
+  <z>1</z>
+ </axis>
+</animation>
+ 
+<animation>  
+ <type>spin</type>
+ <object-name>Tyre3</object-name>
+ <property>gear/gear[3]/rollspeed-ms</property>
+ <factor>-15</factor>
+ <center>
+  <x-m>1.48849</x-m>
+  <y-m>-0.94019</y-m>
+  <z-m>0.42309</z-m>
+ </center>
+ <axis>
+  <x>0.0</x>
+  <y>1.0</y>
+  <z>0.0</z>
+ </axis>
+</animation>
+ 
+<!-- REAR WHEEL RIGHT -->
+
+<animation>
+ <type>translate</type>
+ <object-name>Tyre4</object-name>
+ <property>gear/gear[3]/compression-norm</property>
+ <interpolation>
+  <entry>
+   <ind>0.0</ind>
+   <dep>0</dep>
+  </entry>
+  <entry>
+   <ind>1.00</ind>
+   <dep>0.2</dep>
+  </entry>
+ </interpolation>
+ <axis>
+  <x>0</x>
+  <y>0</y>
+  <z>1</z>
+ </axis>
+</animation>
+
+<animation>
+ <type>spin</type>
+ <object-name>Tyre4</object-name>
+ <property>gear/gear[1]/rollspeed-ms</property>
+ <factor>-15</factor>
+ <center>
+  <x-m>1.48849</x-m>
+  <y-m>0.94019</y-m>
+  <z-m>0.42309</z-m>
+ </center>
+ <axis>
+  <x>0.0</x>
+  <y>1.0</y>
+  <z>0.0</z>
+ </axis>
+</animation>
+
+</PropertyList>
+ 

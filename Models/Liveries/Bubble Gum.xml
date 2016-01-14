@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--####    1927 Ford Model AA  ####
+####    AUSDKUNST    ####
+-->
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Bubble Gum</name>
+            <texture>Liveries/Kerdi Bubble Gum.png</texture>
+        </livery>
+    </model>
+</sim>
+</PropertyList>

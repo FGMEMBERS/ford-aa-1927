@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--####    1927 Ford Model AA  ####
+####    AUSDKUNST    ####
+-->
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Core Black</name>
+            <texture>Kerdi Core Black.png</texture>
+        </livery>
+    </model>
+</sim>
+</PropertyList>

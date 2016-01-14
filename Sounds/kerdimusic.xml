@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <name>music</name>
+  <layout>vbox</layout>
+
+
+  <text>
+    <label>Kerdi Music System</label>
+  </text>
+
+  <hrule/>
+
+  <group>
+    <layout>vbox</layout>
+    <halign>center</halign>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>On board music</label>
+      <property>sim/sound/music</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/music</property>
+      </binding>
+    </checkbox>
+
+  </group>
+
+  <hrule/>
+
+  <group>
+    <layout>hbox</layout>
+    <empty><stretch>true</stretch></empty>
+
+    <button>
+      <legend>Close</legend>
+      <default>true</default>
+      <key>Esc</key>
+      <binding>
+        <command>dialog-close</command>
+      </binding>
+    </button>
+
+    <empty><stretch>true</stretch></empty>
+  </group>
+
+</PropertyList>
