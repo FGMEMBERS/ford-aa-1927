@@ -1,4 +1,4 @@
-<airplane mass="1780">
+<airplane mass="1280">
 
 <approach speed="45" aoa="6" fuel="0.8">
   <control-setting axis="/controls/engines/engine[0]/throttle" value="0.25"/>
@@ -25,7 +25,7 @@ width="0.5" taper="1" cx="2.5" cz="2.5"/>
 
 </mstab>
 
-<jet x="-0.8" y="0" z="0.20" n1-idle="30" n1-max="350" n2-idle="35" n2-max="350" exhaust-speed="400" egt="850" tsfc="0.1" mass="900" thrust="500" rotate="-180" >
+<jet x="-0.8" y="0" z="0.20" n1-idle="30" n1-max="350" n2-idle="35" n2-max="350" exhaust-speed="400" egt="850" tsfc="0.1" mass="900" thrust="330" rotate="-180" >
   <actionpt x="-3.1" y="0" z="0.2" />
   <control-input axis="/controls/gear/brake-right" control="THROTTLE"/>
   <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
@@ -35,14 +35,14 @@ width="0.5" taper="1" cx="2.5" cz="2.5"/>
 
 <tank x="-1.8" y="0" z="0.1" capacity="91"/>
 
-<gear x="-0.5" y="0.7" z="0" compression="0.45" dfric="0.7"
+<gear x="-0.5" y="0.7" z="0" compression="0.45" dfric="0.5"
 	spring="4.0" damp="5.8">
   <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
 <control-input axis="/controls/flight/aileron" control="STEER" square="true"
  src0="-1.0" src1="1.0"
  dst0="-0.6" dst1="0.6"/>
 </gear>
-<gear x="-0.5" y="-0.7" z="0" compression="0.45" dfric="0.7"
+<gear x="-0.5" y="-0.7" z="0" compression="0.45" dfric="0.5"
 	spring="4.0" damp="5.8">
   <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
 <control-input axis="/controls/flight/aileron" control="STEER" square="true"
@@ -50,14 +50,14 @@ width="0.5" taper="1" cx="2.5" cz="2.5"/>
  dst0="-0.6" dst1="0.6"/>
 </gear>
 
-<gear x="-2.696" y="0.7" z="0" compression="0.45" dfric="1"
+<gear x="-2.696" y="0.7" z="0" compression="0.45" dfric="2.5"
 	spring="4.0" damp="5.8">
 
   <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
 
 </gear>
 
-<gear x="-2.696" y="-0.7" z="0" compression="0.45" dfric="1"
+<gear x="-2.696" y="-0.7" z="0" compression="0.45" dfric="2.5"
 	spring="4.0" damp="5.8">
 
   <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
