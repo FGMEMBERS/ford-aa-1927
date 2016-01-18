@@ -1,19 +1,24 @@
-AUTHORS
-------------------------------------------------------------------------------------------------
-Australien Digitale Kunst
+1927 Ford Model AA for Flightgear by Australien Digitale Kunst.
+Copyright (C) 2016 
 
-THIS IS A DEVELOPER COPY!!
+  This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-Thank you for downloading 1927 Ford Model AA for Flightgear.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Deferred rendering (Rembrandt) should be enabled to make use of the headlights. 
 Note: Shadows do not look great, so I suggest you disable it under Rembrandt.
 
 Normal mode (Rembrandt and ALS disabled) can be used if your computer does not support Rembrandt. I strongly suggest you never use ALS with this mod because reflection function of the car will be gone and the model does not look as nice.
-
-Conditions of Use: only for non-profit commercial or personal end use 
-This material is covered under the Creative Commons BY-NC-SA 4.0, if you did not received a copy of the license, you can find one at http://creativecommons.org/licenses/by-nc-sa/4.0/
+ 
 For future updates, please follow me on twitter (http://twitter.com/KerdiGarage)
 
 Have FUN!
