@@ -5,7 +5,7 @@ Australien Digitale Kunst
 THIS IS A DEVELOPER COPY!!
 
 Thank you for downloading 1927 Ford Model AA for Flightgear.
-Music is by AJ Croce, 2005 SXSW and is edited to make it sound like coming out from car speakers. If you don’t like the music or want to reduce the size of the folder, just go to the Sounds folder and remove music.wav
+
 
 Deferred rendering (Rembrandt) should be enabled to make use of the headlights. 
 Note: Shadows do not look great, so I suggest you disable it under Rembrandt.
