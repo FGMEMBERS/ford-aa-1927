@@ -62,18 +62,5 @@
       </volume>
     </thud>
 
-<!-- Kerdi Music System -->
-
-<music>
-<name>music</name>
- <path>Aircraft/ford-aa-1927/Sounds/music.wav</path>
- <mode>looped</mode>
- <condition>
-  <property>sim/sound/music</property>
- </condition>
-        <volume>
-            <factor>300</factor>
-        </volume>
-</music>
  </fx>
 </PropertyList>
