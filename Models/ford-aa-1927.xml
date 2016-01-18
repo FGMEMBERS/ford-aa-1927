@@ -76,200 +76,39 @@
  <inherits-from>Effects/model-transparent</inherits-from>
  <object-name>Windows</object-name>
 </effect>
-
-<!-- FRONT WHEEL LEFT -->
-
-<animation>
- <type>rotate</type>
- <object-name>Tyre1</object-name>
- <property>gear/gear[0]/steering-norm</property>
- <factor>-45</factor>
- <center>
-  <x-m> -2.48481</x-m>
+<!-- Submodels-->
+<model> 
+      <path>Submodels/LFWheel.xml</path>
+      <offsets> 
+      <x-m> -2.48481</x-m>
   <y-m>-0.94019</y-m>
   <z-m>0.4907</z-m>
- </center>
- <axis>
-  <x>0.0</x>
-  <y>0.0</y>
-  <z>1.0</z>
- </axis>
-</animation>
-
-<animation>
- <type>translate</type>
- <object-name>Tyre1</object-name>
- <property>gear/gear[0]/compression-norm</property>
- <interpolation>
-  <entry>
-   <ind>0.0</ind>	
-   <dep>0</dep>
-  </entry>
-  <entry>	
-	<ind>1.00</ind>
-	<dep>0.2</dep>
-  </entry>  
- </interpolation>
- <axis>
-  <x>0</x>	
-  <y>0</y>
-  <z>1</z>	
- </axis>
-</animation>
- 
-<animation>
- <type>spin</type>
- <object-name>Tyre1</object-name>
- <property>gear/gear[2]/rollspeed-ms</property>
- <factor>-15</factor>
- <center>
-  <x-m>-2.48481</x-m>
-  <y-m>-0.94019</y-m>
-  <z-m>0.4907</z-m>
- </center>
- <axis>
-  <x>0.0</x>
-  <y>1.0</y>
-  <z>0.0</z>
- </axis>
-</animation>
-
-<!-- FRONT WHEEL RIGHT -->
-
-<animation>
- <type>rotate</type>
- <object-name>Tyre2</object-name>
- <property>gear/gear[1]/steering-norm</property>
- <factor>-45</factor>
- <center>
-  <x-m>-2.48481</x-m>
+      </offsets>
+    </model>
+ 	<model> 
+      <path>Submodels/RFWheel.xml</path>
+      <offsets> 
+    <x-m>-2.48481</x-m>
   <y-m>0.94019</y-m>
   <z-m>0.4907</z-m>
- </center>
- <axis>
-  <x>0.0</x>
-  <y>0.0</y>
-  <z>1.0</z>
- </axis>
-</animation>
-
-<animation>
- <type>translate</type>
- <object-name>Tyre2</object-name>
- <property>gear/gear[1]/compression-norm</property>
- <interpolation>
-  <entry>
-   <ind>0.0</ind>
-   <dep>0</dep>
-  </entry>
-  <entry>
-   <ind>1.00</ind>
-   <dep>0.2</dep>
-  </entry>
- </interpolation>
- <axis>
-  <x>0</x>
-  <y>0</y>
-  <z>1</z>
- </axis>
-</animation>
- 
-<animation>
- <type>spin</type>
- <object-name>Tyre2</object-name> 
- <property>gear/gear[1]/rollspeed-ms</property>
- <factor>-15</factor>
- <center>
-  <x-m>-2.48481</x-m>
-  <y-m>0.94019</y-m>
-  <z-m>0.4907</z-m>
- </center>
- <axis>
-  <x>0.0</x>
-  <y>1.0</y>
-  <z>0.0</z>
- </axis>
-</animation>
- 
-<!-- REAR WHEEL LEFT -->
-
-<animation>
- <type>translate</type>
- <object-name>Tyre3</object-name>
- <property>gear/gear[2]/compression-norm</property>
- <interpolation>
-  <entry>
-   <ind>0.0</ind>
-   <dep>0</dep>
-  </entry>
-  <entry>
-   <ind>1.00</ind>
-   <dep>0.2</dep>
-  </entry>
- </interpolation>
- <axis>
-  <x>0</x>
-  <y>0</y>
-  <z>1</z>
- </axis>
-</animation>
- 
-<animation>  
- <type>spin</type>
- <object-name>Tyre3</object-name>
- <property>gear/gear[3]/rollspeed-ms</property>
- <factor>-15</factor>
- <center>
-  <x-m>1.48849</x-m>
+      </offsets>
+    </model>
+	<model> 
+      <path>Submodels/LRWheel.xml</path>
+      <offsets> 
+    <x-m>1.48849</x-m>
   <y-m>-0.94019</y-m>
   <z-m>0.42309</z-m>
- </center>
- <axis>
-  <x>0.0</x>
-  <y>1.0</y>
-  <z>0.0</z>
- </axis>
-</animation>
- 
-<!-- REAR WHEEL RIGHT -->
-
-<animation>
- <type>translate</type>
- <object-name>Tyre4</object-name>
- <property>gear/gear[3]/compression-norm</property>
- <interpolation>
-  <entry>
-   <ind>0.0</ind>
-   <dep>0</dep>
-  </entry>
-  <entry>
-   <ind>1.00</ind>
-   <dep>0.2</dep>
-  </entry>
- </interpolation>
- <axis>
-  <x>0</x>
-  <y>0</y>
-  <z>1</z>
- </axis>
-</animation>
-
-<animation>
- <type>spin</type>
- <object-name>Tyre4</object-name>
- <property>gear/gear[1]/rollspeed-ms</property>
- <factor>-15</factor>
- <center>
-  <x-m>1.48849</x-m>
+      </offsets>
+    </model>
+ 	<model> 
+      <path>Submodels/RRWheel.xml</path>
+      <offsets> 
+     <x-m>1.48849</x-m>
   <y-m>0.94019</y-m>
   <z-m>0.42309</z-m>
- </center>
- <axis>
-  <x>0.0</x>
-  <y>1.0</y>
-  <z>0.0</z>
- </axis>
-</animation>
+      </offsets>
+</model>
 
 </PropertyList>
  
