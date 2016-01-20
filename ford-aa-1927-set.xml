@@ -89,6 +89,15 @@
 		</menu>
 		</default>
 	</menubar>
+<multiplay>
+	 <generic>
+	<float n="1" alias="/gear/gear[0]/rollspeed-ms"/> <!--wheel rotation-->
+	  <float n="2" alias="/gear/gear[1]/rollspeed-ms"/> <!--wheel rotation-->
+	  <float n="3" alias="/gear/gear[2]/rollspeed-ms"/> <!--wheel rotation-->
+	  <float n="4" alias="/gear/gear[3]/rollspeed-ms"/> <!--wheel rotation-->
+	  <float n="5" alias="/controls/flight/aileron"/> <!--wheel steering-->
+</generic>
+	</multiplay>
 
 </sim>
 
