@@ -13,11 +13,6 @@ Copyright (C) 2016
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-Deferred rendering (Rembrandt) should be enabled to make use of the headlights. 
-Note: Shadows do not look great, so I suggest you disable it under Rembrandt.
-
-Normal mode (Rembrandt and ALS disabled) can be used if your computer does not support Rembrandt. I strongly suggest you never use ALS with this mod because reflection function of the car will be gone and the model does not look as nice.
  
 For future updates, please follow me on twitter (http://twitter.com/KerdiGarage)
 

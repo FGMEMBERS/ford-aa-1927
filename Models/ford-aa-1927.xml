@@ -73,9 +73,6 @@ self.getNode("gear/gear[0]/rollspeed-ms", 1).alias(self.getNode("sim/multiplay/g
 		<object-name>Logo</object-name>
 		<object-name>Wood</object-name>
 		<object-name>metal</object-name>
-	</effect>
-	<effect>
-		<inherits-from>Aircraft/ford-aa-1927/Models/Effects/ford-aa-19272</inherits-from>
 		<object-name>Chrome</object-name>
 	</effect>
 <effect>
